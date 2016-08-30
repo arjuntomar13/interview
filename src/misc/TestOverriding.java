@@ -1,11 +1,11 @@
 package misc;
 
-import java.util.BitSet;
-import java.util.HashMap;
-import java.util.Map;
+public class TestOverriding extends TestSuper{
 
-public class TestOverriding {
-
+	public static void testStaticOverriding(int test){
+		System.out.println("Child static method");
+	}
+	
 	public static void main(String args[]){
 		
 		/*boolean isNeg = false;

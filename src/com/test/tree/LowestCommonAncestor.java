@@ -89,6 +89,6 @@ public class LowestCommonAncestor {
 		populateBST.insert(345);
 
 		LowestCommonAncestor lca = new LowestCommonAncestor();
-		lca.findLCA1(root, 32, 13);
+		lca.findLCA(root, 32, 11);
 	}
 }

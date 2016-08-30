@@ -7,6 +7,9 @@ public class Super {
 		System.out.println("Super static");
 	}
 
+	public void test2(){
+		System.out.println("Test 2 in super");
+	}
 }
 
 

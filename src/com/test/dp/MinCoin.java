@@ -30,13 +30,12 @@ public class MinCoin {
 			System.out.println(coins[res[j]] + " ");
 			j = j - coins[res[j]];
 		}
-
 		return dp[val];
 	}
 
 	public static void main(String[] args) {
-		int val = 150;
-		int[] coins = { 5, 3, 8, 2, 11 };
+		int val = 248;
+		int[] coins = {7,9,17,23 };
 		getMinCoin(coins, val);
 	}
 }
